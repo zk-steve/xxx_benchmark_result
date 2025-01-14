@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1736839685628,
+  "lastUpdate": 1736847477299,
   "repoUrl": "https://github.com/zk-steve/rust_interview",
   "entries": {
     "Rust Benchmark": [
@@ -2217,6 +2217,246 @@ window.BENCHMARK_DATA = {
             "name": "backward_inplace/goldilocks_v2_prime/65536",
             "value": 996957,
             "range": "± 156108",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "33181397+zk-steve@users.noreply.github.com",
+            "name": "Steve",
+            "username": "zk-steve"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "87bdeae8cdb0e425190887d3c84bd31fd320206d",
+          "message": "Merge pull request #8 from zk-steve/avx-align-memory\n\nimprove avx-2 by aligning memory",
+          "timestamp": "2025-01-14T16:30:58+07:00",
+          "tree_id": "3f1fca7be6b1276e18d44b199cd3ace8d81101ba",
+          "url": "https://github.com/zk-steve/rust_interview/commit/87bdeae8cdb0e425190887d3c84bd31fd320206d"
+        },
+        "date": 1736847476137,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "forward_inplace/prime/2048",
+            "value": 19227,
+            "range": "± 390",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "forward_inplace/goldilocks_prime/2048",
+            "value": 30439,
+            "range": "± 558",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "forward_inplace/goldilocks_v2_prime/2048",
+            "value": 18921,
+            "range": "± 452",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "forward_inplace/prime/4096",
+            "value": 41089,
+            "range": "± 687",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "forward_inplace/goldilocks_prime/4096",
+            "value": 65844,
+            "range": "± 1282",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "forward_inplace/goldilocks_v2_prime/4096",
+            "value": 42018,
+            "range": "± 1017",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "forward_inplace/prime/8192",
+            "value": 86810,
+            "range": "± 2178",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "forward_inplace/goldilocks_prime/8192",
+            "value": 138923,
+            "range": "± 3117",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "forward_inplace/goldilocks_v2_prime/8192",
+            "value": 88869,
+            "range": "± 1790",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "forward_inplace/prime/16384",
+            "value": 182646,
+            "range": "± 3581",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "forward_inplace/goldilocks_prime/16384",
+            "value": 293457,
+            "range": "± 7476",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "forward_inplace/goldilocks_v2_prime/16384",
+            "value": 189122,
+            "range": "± 4310",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "forward_inplace/prime/32768",
+            "value": 385480,
+            "range": "± 9124",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "forward_inplace/goldilocks_prime/32768",
+            "value": 633872,
+            "range": "± 10083",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "forward_inplace/goldilocks_v2_prime/32768",
+            "value": 409218,
+            "range": "± 6566",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "forward_inplace/prime/65536",
+            "value": 825290,
+            "range": "± 21485",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "forward_inplace/goldilocks_prime/65536",
+            "value": 1345319,
+            "range": "± 23090",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "forward_inplace/goldilocks_v2_prime/65536",
+            "value": 875716,
+            "range": "± 18566",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "backward_inplace/prime/2048",
+            "value": 18894,
+            "range": "± 323",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "backward_inplace/goldilocks_prime/2048",
+            "value": 30344,
+            "range": "± 613",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "backward_inplace/goldilocks_v2_prime/2048",
+            "value": 21729,
+            "range": "± 587",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "backward_inplace/prime/4096",
+            "value": 40695,
+            "range": "± 2056",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "backward_inplace/goldilocks_prime/4096",
+            "value": 66163,
+            "range": "± 1416",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "backward_inplace/goldilocks_v2_prime/4096",
+            "value": 46417,
+            "range": "± 1686",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "backward_inplace/prime/8192",
+            "value": 89002,
+            "range": "± 2157",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "backward_inplace/goldilocks_prime/8192",
+            "value": 144352,
+            "range": "± 2800",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "backward_inplace/goldilocks_v2_prime/8192",
+            "value": 102383,
+            "range": "± 1705",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "backward_inplace/prime/16384",
+            "value": 185347,
+            "range": "± 3296",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "backward_inplace/goldilocks_prime/16384",
+            "value": 293627,
+            "range": "± 5506",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "backward_inplace/goldilocks_v2_prime/16384",
+            "value": 214036,
+            "range": "± 4355",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "backward_inplace/prime/32768",
+            "value": 388994,
+            "range": "± 7732",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "backward_inplace/goldilocks_prime/32768",
+            "value": 639153,
+            "range": "± 11036",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "backward_inplace/goldilocks_v2_prime/32768",
+            "value": 464778,
+            "range": "± 7693",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "backward_inplace/prime/65536",
+            "value": 838354,
+            "range": "± 19134",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "backward_inplace/goldilocks_prime/65536",
+            "value": 1343438,
+            "range": "± 26914",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "backward_inplace/goldilocks_v2_prime/65536",
+            "value": 979042,
+            "range": "± 19816",
             "unit": "ns/iter"
           }
         ]
