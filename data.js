@@ -25,37 +25,37 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "forward_inplace/prime/2048",
+            "name": "forward_inplace/u64_prime/2048",
             "value": 92560,
             "range": "± 160",
             "unit": "ns/iter"
           },
           {
-            "name": "forward_inplace/prime/4096",
+            "name": "forward_inplace/u64_prime/4096",
             "value": 199439,
             "range": "± 280",
             "unit": "ns/iter"
           },
           {
-            "name": "forward_inplace/prime/8192",
+            "name": "forward_inplace/u64_prime/8192",
             "value": 428739,
             "range": "± 381",
             "unit": "ns/iter"
           },
           {
-            "name": "forward_inplace/prime/16384",
+            "name": "forward_inplace/u64_prime/16384",
             "value": 913838,
             "range": "± 771",
             "unit": "ns/iter"
           },
           {
-            "name": "forward_inplace/prime/32768",
+            "name": "forward_inplace/u64_prime/32768",
             "value": 1940253,
             "range": "± 3699",
             "unit": "ns/iter"
           },
           {
-            "name": "forward_inplace/prime/65536",
+            "name": "forward_inplace/u64_prime/65536",
             "value": 4376138,
             "range": "± 14345",
             "unit": "ns/iter"
@@ -84,7 +84,7 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "forward_inplace/prime/2048",
+            "name": "forward_inplace/u64_prime/2048",
             "value": 92551,
             "range": "± 340",
             "unit": "ns/iter"
@@ -102,7 +102,7 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "forward_inplace/prime/4096",
+            "name": "forward_inplace/u64_prime/4096",
             "value": 199792,
             "range": "± 4853",
             "unit": "ns/iter"
@@ -120,7 +120,7 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "forward_inplace/prime/8192",
+            "name": "forward_inplace/u64_prime/8192",
             "value": 426987,
             "range": "± 374",
             "unit": "ns/iter"
@@ -138,7 +138,7 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "forward_inplace/prime/16384",
+            "name": "forward_inplace/u64_prime/16384",
             "value": 912712,
             "range": "± 16324",
             "unit": "ns/iter"
@@ -156,7 +156,7 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "forward_inplace/prime/32768",
+            "name": "forward_inplace/u64_prime/32768",
             "value": 1939323,
             "range": "± 1993",
             "unit": "ns/iter"
@@ -174,7 +174,7 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "forward_inplace/prime/65536",
+            "name": "forward_inplace/u64_prime/65536",
             "value": 4382255,
             "range": "± 5526",
             "unit": "ns/iter"
@@ -324,7 +324,7 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "forward_inplace/prime/2048",
+            "name": "forward_inplace/u64_prime/2048",
             "value": 92697,
             "range": "± 223",
             "unit": "ns/iter"
@@ -342,7 +342,7 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "forward_inplace/prime/4096",
+            "name": "forward_inplace/u64_prime/4096",
             "value": 199172,
             "range": "± 240",
             "unit": "ns/iter"
@@ -360,7 +360,7 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "forward_inplace/prime/8192",
+            "name": "forward_inplace/u64_prime/8192",
             "value": 427760,
             "range": "± 8828",
             "unit": "ns/iter"
@@ -378,7 +378,7 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "forward_inplace/prime/16384",
+            "name": "forward_inplace/u64_prime/16384",
             "value": 912867,
             "range": "± 1731",
             "unit": "ns/iter"
@@ -396,7 +396,7 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "forward_inplace/prime/32768",
+            "name": "forward_inplace/u64_prime/32768",
             "value": 1941061,
             "range": "± 2300",
             "unit": "ns/iter"
@@ -414,7 +414,7 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "forward_inplace/prime/65536",
+            "name": "forward_inplace/u64_prime/65536",
             "value": 4381448,
             "range": "± 14297",
             "unit": "ns/iter"
@@ -564,7 +564,7 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "forward_inplace/prime/2048",
+            "name": "forward_inplace/u64_prime/2048",
             "value": 47881,
             "range": "± 864",
             "unit": "ns/iter"
@@ -582,7 +582,7 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "forward_inplace/prime/4096",
+            "name": "forward_inplace/u64_prime/4096",
             "value": 101378,
             "range": "± 862",
             "unit": "ns/iter"
@@ -600,7 +600,7 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "forward_inplace/prime/8192",
+            "name": "forward_inplace/u64_prime/8192",
             "value": 214107,
             "range": "± 1239",
             "unit": "ns/iter"
@@ -618,7 +618,7 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "forward_inplace/prime/16384",
+            "name": "forward_inplace/u64_prime/16384",
             "value": 449832,
             "range": "± 3317",
             "unit": "ns/iter"
@@ -636,7 +636,7 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "forward_inplace/prime/32768",
+            "name": "forward_inplace/u64_prime/32768",
             "value": 944702,
             "range": "± 5581",
             "unit": "ns/iter"
@@ -654,7 +654,7 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "forward_inplace/prime/65536",
+            "name": "forward_inplace/u64_prime/65536",
             "value": 2258656,
             "range": "± 22304",
             "unit": "ns/iter"
@@ -804,7 +804,7 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "forward_inplace/prime/2048",
+            "name": "forward_inplace/u64_prime/2048",
             "value": 34726,
             "range": "± 281",
             "unit": "ns/iter"
@@ -822,7 +822,7 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "forward_inplace/prime/4096",
+            "name": "forward_inplace/u64_prime/4096",
             "value": 74871,
             "range": "± 360",
             "unit": "ns/iter"
@@ -840,7 +840,7 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "forward_inplace/prime/8192",
+            "name": "forward_inplace/u64_prime/8192",
             "value": 160725,
             "range": "± 379",
             "unit": "ns/iter"
@@ -858,7 +858,7 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "forward_inplace/prime/16384",
+            "name": "forward_inplace/u64_prime/16384",
             "value": 342839,
             "range": "± 1721",
             "unit": "ns/iter"
@@ -876,7 +876,7 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "forward_inplace/prime/32768",
+            "name": "forward_inplace/u64_prime/32768",
             "value": 729666,
             "range": "± 1389",
             "unit": "ns/iter"
@@ -894,7 +894,7 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "forward_inplace/prime/65536",
+            "name": "forward_inplace/u64_prime/65536",
             "value": 1548696,
             "range": "± 6958",
             "unit": "ns/iter"
@@ -1044,7 +1044,7 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "forward_inplace/prime/2048",
+            "name": "forward_inplace/u64_prime/2048",
             "value": 32053,
             "range": "± 256",
             "unit": "ns/iter"
@@ -1062,7 +1062,7 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "forward_inplace/prime/4096",
+            "name": "forward_inplace/u64_prime/4096",
             "value": 69087,
             "range": "± 1083",
             "unit": "ns/iter"
@@ -1080,7 +1080,7 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "forward_inplace/prime/8192",
+            "name": "forward_inplace/u64_prime/8192",
             "value": 155663,
             "range": "± 5492",
             "unit": "ns/iter"
@@ -1098,7 +1098,7 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "forward_inplace/prime/16384",
+            "name": "forward_inplace/u64_prime/16384",
             "value": 341435,
             "range": "± 13318",
             "unit": "ns/iter"
@@ -1116,7 +1116,7 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "forward_inplace/prime/32768",
+            "name": "forward_inplace/u64_prime/32768",
             "value": 732645,
             "range": "± 7430",
             "unit": "ns/iter"
@@ -1134,7 +1134,7 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "forward_inplace/prime/65536",
+            "name": "forward_inplace/u64_prime/65536",
             "value": 1543985,
             "range": "± 9459",
             "unit": "ns/iter"
@@ -1284,7 +1284,7 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "forward_inplace/prime/2048",
+            "name": "forward_inplace/u64_prime/2048",
             "value": 26608,
             "range": "± 811",
             "unit": "ns/iter"
@@ -1302,7 +1302,7 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "forward_inplace/prime/4096",
+            "name": "forward_inplace/u64_prime/4096",
             "value": 57514,
             "range": "± 1506",
             "unit": "ns/iter"
@@ -1320,7 +1320,7 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "forward_inplace/prime/8192",
+            "name": "forward_inplace/u64_prime/8192",
             "value": 123284,
             "range": "± 1844",
             "unit": "ns/iter"
@@ -1338,7 +1338,7 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "forward_inplace/prime/16384",
+            "name": "forward_inplace/u64_prime/16384",
             "value": 264211,
             "range": "± 6203",
             "unit": "ns/iter"
@@ -1356,7 +1356,7 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "forward_inplace/prime/32768",
+            "name": "forward_inplace/u64_prime/32768",
             "value": 563992,
             "range": "± 7991",
             "unit": "ns/iter"
@@ -1374,7 +1374,7 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "forward_inplace/prime/65536",
+            "name": "forward_inplace/u64_prime/65536",
             "value": 1264614,
             "range": "± 51039",
             "unit": "ns/iter"
@@ -1524,7 +1524,7 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "forward_inplace/prime/2048",
+            "name": "forward_inplace/u64_prime/2048",
             "value": 24842,
             "range": "± 178",
             "unit": "ns/iter"
@@ -1542,7 +1542,7 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "forward_inplace/prime/4096",
+            "name": "forward_inplace/u64_prime/4096",
             "value": 53457,
             "range": "± 483",
             "unit": "ns/iter"
@@ -1560,7 +1560,7 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "forward_inplace/prime/8192",
+            "name": "forward_inplace/u64_prime/8192",
             "value": 114478,
             "range": "± 415",
             "unit": "ns/iter"
@@ -1578,7 +1578,7 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "forward_inplace/prime/16384",
+            "name": "forward_inplace/u64_prime/16384",
             "value": 239792,
             "range": "± 973",
             "unit": "ns/iter"
@@ -1596,7 +1596,7 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "forward_inplace/prime/32768",
+            "name": "forward_inplace/u64_prime/32768",
             "value": 507992,
             "range": "± 1163",
             "unit": "ns/iter"
@@ -1614,7 +1614,7 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "forward_inplace/prime/65536",
+            "name": "forward_inplace/u64_prime/65536",
             "value": 1076179,
             "range": "± 6358",
             "unit": "ns/iter"
@@ -1764,7 +1764,7 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "forward_inplace/prime/2048",
+            "name": "forward_inplace/u64_prime/2048",
             "value": 20230,
             "range": "± 63",
             "unit": "ns/iter"
@@ -1782,7 +1782,7 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "forward_inplace/prime/4096",
+            "name": "forward_inplace/u64_prime/4096",
             "value": 42852,
             "range": "± 176",
             "unit": "ns/iter"
@@ -1800,7 +1800,7 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "forward_inplace/prime/8192",
+            "name": "forward_inplace/u64_prime/8192",
             "value": 92305,
             "range": "± 543",
             "unit": "ns/iter"
@@ -1818,7 +1818,7 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "forward_inplace/prime/16384",
+            "name": "forward_inplace/u64_prime/16384",
             "value": 196336,
             "range": "± 955",
             "unit": "ns/iter"
@@ -1836,7 +1836,7 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "forward_inplace/prime/32768",
+            "name": "forward_inplace/u64_prime/32768",
             "value": 407147,
             "range": "± 994",
             "unit": "ns/iter"
@@ -1854,7 +1854,7 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "forward_inplace/prime/65536",
+            "name": "forward_inplace/u64_prime/65536",
             "value": 861024,
             "range": "± 4182",
             "unit": "ns/iter"
@@ -2004,7 +2004,7 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "forward_inplace/prime/2048",
+            "name": "forward_inplace/u64_prime/2048",
             "value": 19198,
             "range": "± 422",
             "unit": "ns/iter"
@@ -2022,7 +2022,7 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "forward_inplace/prime/4096",
+            "name": "forward_inplace/u64_prime/4096",
             "value": 42146,
             "range": "± 934",
             "unit": "ns/iter"
@@ -2040,7 +2040,7 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "forward_inplace/prime/8192",
+            "name": "forward_inplace/u64_prime/8192",
             "value": 87466,
             "range": "± 2189",
             "unit": "ns/iter"
@@ -2058,7 +2058,7 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "forward_inplace/prime/16384",
+            "name": "forward_inplace/u64_prime/16384",
             "value": 185947,
             "range": "± 3796",
             "unit": "ns/iter"
@@ -2076,7 +2076,7 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "forward_inplace/prime/32768",
+            "name": "forward_inplace/u64_prime/32768",
             "value": 389057,
             "range": "± 9981",
             "unit": "ns/iter"
@@ -2094,7 +2094,7 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "forward_inplace/prime/65536",
+            "name": "forward_inplace/u64_prime/65536",
             "value": 830685,
             "range": "± 24705",
             "unit": "ns/iter"
@@ -2244,7 +2244,7 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "forward_inplace/prime/2048",
+            "name": "forward_inplace/u64_prime/2048",
             "value": 19227,
             "range": "± 390",
             "unit": "ns/iter"
@@ -2262,7 +2262,7 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "forward_inplace/prime/4096",
+            "name": "forward_inplace/u64_prime/4096",
             "value": 41089,
             "range": "± 687",
             "unit": "ns/iter"
@@ -2280,7 +2280,7 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "forward_inplace/prime/8192",
+            "name": "forward_inplace/u64_prime/8192",
             "value": 86810,
             "range": "± 2178",
             "unit": "ns/iter"
@@ -2298,7 +2298,7 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "forward_inplace/prime/16384",
+            "name": "forward_inplace/u64_prime/16384",
             "value": 182646,
             "range": "± 3581",
             "unit": "ns/iter"
@@ -2316,7 +2316,7 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "forward_inplace/prime/32768",
+            "name": "forward_inplace/u64_prime/32768",
             "value": 385480,
             "range": "± 9124",
             "unit": "ns/iter"
@@ -2334,7 +2334,7 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "forward_inplace/prime/65536",
+            "name": "forward_inplace/u64_prime/65536",
             "value": 825290,
             "range": "± 21485",
             "unit": "ns/iter"
