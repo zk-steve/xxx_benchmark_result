@@ -134,12 +134,6 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "backward_inplace/prime/2048",
-            "value": 20126,
-            "range": "± 62",
-            "unit": "ns/iter"
-          },
-          {
             "name": "backward_inplace/goldilocks_prime/2048",
             "value": 32261,
             "range": "± 150",
@@ -149,12 +143,6 @@ window.BENCHMARK_DATA = {
             "name": "backward_inplace/goldilocks_v2_prime/2048",
             "value": 22663,
             "range": "± 134",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "backward_inplace/prime/4096",
-            "value": 43180,
-            "range": "± 222",
             "unit": "ns/iter"
           },
           {
@@ -170,12 +158,6 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "backward_inplace/prime/8192",
-            "value": 92842,
-            "range": "± 580",
-            "unit": "ns/iter"
-          },
-          {
             "name": "backward_inplace/goldilocks_prime/8192",
             "value": 147483,
             "range": "± 1339",
@@ -185,12 +167,6 @@ window.BENCHMARK_DATA = {
             "name": "backward_inplace/goldilocks_v2_prime/8192",
             "value": 105663,
             "range": "± 431",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "backward_inplace/prime/16384",
-            "value": 197390,
-            "range": "± 528",
             "unit": "ns/iter"
           },
           {
@@ -206,12 +182,6 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "backward_inplace/prime/32768",
-            "value": 418715,
-            "range": "± 2029",
-            "unit": "ns/iter"
-          },
-          {
             "name": "backward_inplace/goldilocks_prime/32768",
             "value": 665751,
             "range": "± 2528",
@@ -221,12 +191,6 @@ window.BENCHMARK_DATA = {
             "name": "backward_inplace/goldilocks_v2_prime/32768",
             "value": 481750,
             "range": "± 3961",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "backward_inplace/prime/65536",
-            "value": 890310,
-            "range": "± 4405",
             "unit": "ns/iter"
           },
           {
@@ -374,12 +338,6 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "backward_inplace/prime/2048",
-            "value": 19703,
-            "range": "± 2610",
-            "unit": "ns/iter"
-          },
-          {
             "name": "backward_inplace/goldilocks_prime/2048",
             "value": 31356,
             "range": "± 1228",
@@ -389,12 +347,6 @@ window.BENCHMARK_DATA = {
             "name": "backward_inplace/goldilocks_v2_prime/2048",
             "value": 22031,
             "range": "± 441",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "backward_inplace/prime/4096",
-            "value": 42679,
-            "range": "± 858",
             "unit": "ns/iter"
           },
           {
@@ -410,12 +362,6 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "backward_inplace/prime/8192",
-            "value": 90298,
-            "range": "± 1740",
-            "unit": "ns/iter"
-          },
-          {
             "name": "backward_inplace/goldilocks_prime/8192",
             "value": 141353,
             "range": "± 2974",
@@ -425,12 +371,6 @@ window.BENCHMARK_DATA = {
             "name": "backward_inplace/goldilocks_v2_prime/8192",
             "value": 100826,
             "range": "± 2045",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "backward_inplace/prime/16384",
-            "value": 192262,
-            "range": "± 3554",
             "unit": "ns/iter"
           },
           {
@@ -446,12 +386,6 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "backward_inplace/prime/32768",
-            "value": 395205,
-            "range": "± 10728",
-            "unit": "ns/iter"
-          },
-          {
             "name": "backward_inplace/goldilocks_prime/32768",
             "value": 638211,
             "range": "± 24023",
@@ -461,12 +395,6 @@ window.BENCHMARK_DATA = {
             "name": "backward_inplace/goldilocks_v2_prime/32768",
             "value": 469432,
             "range": "± 17440",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "backward_inplace/prime/65536",
-            "value": 855328,
-            "range": "± 16489",
             "unit": "ns/iter"
           },
           {
@@ -614,12 +542,6 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "backward_inplace/prime/2048",
-            "value": 18894,
-            "range": "± 323",
-            "unit": "ns/iter"
-          },
-          {
             "name": "backward_inplace/goldilocks_prime/2048",
             "value": 30344,
             "range": "± 613",
@@ -629,12 +551,6 @@ window.BENCHMARK_DATA = {
             "name": "backward_inplace/goldilocks_v2_prime/2048",
             "value": 21729,
             "range": "± 587",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "backward_inplace/prime/4096",
-            "value": 40695,
-            "range": "± 2056",
             "unit": "ns/iter"
           },
           {
@@ -650,12 +566,6 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "backward_inplace/prime/8192",
-            "value": 89002,
-            "range": "± 2157",
-            "unit": "ns/iter"
-          },
-          {
             "name": "backward_inplace/goldilocks_prime/8192",
             "value": 144352,
             "range": "± 2800",
@@ -665,12 +575,6 @@ window.BENCHMARK_DATA = {
             "name": "backward_inplace/goldilocks_v2_prime/8192",
             "value": 102383,
             "range": "± 1705",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "backward_inplace/prime/16384",
-            "value": 185347,
-            "range": "± 3296",
             "unit": "ns/iter"
           },
           {
@@ -686,12 +590,6 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "backward_inplace/prime/32768",
-            "value": 388994,
-            "range": "± 7732",
-            "unit": "ns/iter"
-          },
-          {
             "name": "backward_inplace/goldilocks_prime/32768",
             "value": 639153,
             "range": "± 11036",
@@ -701,12 +599,6 @@ window.BENCHMARK_DATA = {
             "name": "backward_inplace/goldilocks_v2_prime/32768",
             "value": 464778,
             "range": "± 7693",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "backward_inplace/prime/65536",
-            "value": 838354,
-            "range": "± 19134",
             "unit": "ns/iter"
           },
           {
