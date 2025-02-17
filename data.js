@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1739267166606,
+  "lastUpdate": 1739757832165,
   "repoUrl": "https://github.com/zk-steve/rust_interview",
   "entries": {
     "Rust Benchmark": [
@@ -1655,6 +1655,318 @@ window.BENCHMARK_DATA = {
             "name": "backward_inplace/goldilocks_v2_prime/65536",
             "value": 964478,
             "range": "± 19737",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "33181397+zk-steve@users.noreply.github.com",
+            "name": "Steve",
+            "username": "zk-steve"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6677beeea4973188733594a2e11e3c0c881eec96",
+          "message": "Merge pull request #11 from zk-steve/improve-shoup\n\nImprove shoup",
+          "timestamp": "2025-02-17T08:54:56+07:00",
+          "tree_id": "7235373d57b964904999d15a35ae204f0583ae17",
+          "url": "https://github.com/zk-steve/rust_interview/commit/6677beeea4973188733594a2e11e3c0c881eec96"
+        },
+        "date": 1739757831014,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "forward_inplace/u64_prime/2048",
+            "value": 11840,
+            "range": "± 385",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "forward_inplace/u60_prime/2048",
+            "value": 19031,
+            "range": "± 336",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "forward_inplace/goldilocks_prime/2048",
+            "value": 30762,
+            "range": "± 783",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "forward_inplace/goldilocks_v2_prime/2048",
+            "value": 18680,
+            "range": "± 364",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "forward_inplace/u64_prime/4096",
+            "value": 25492,
+            "range": "± 585",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "forward_inplace/u60_prime/4096",
+            "value": 40668,
+            "range": "± 695",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "forward_inplace/goldilocks_prime/4096",
+            "value": 65504,
+            "range": "± 1436",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "forward_inplace/goldilocks_v2_prime/4096",
+            "value": 40735,
+            "range": "± 967",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "forward_inplace/u64_prime/8192",
+            "value": 53137,
+            "range": "± 1153",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "forward_inplace/u60_prime/8192",
+            "value": 86079,
+            "range": "± 1612",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "forward_inplace/goldilocks_prime/8192",
+            "value": 139806,
+            "range": "± 5012",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "forward_inplace/goldilocks_v2_prime/8192",
+            "value": 88168,
+            "range": "± 1524",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "forward_inplace/u64_prime/16384",
+            "value": 111767,
+            "range": "± 2795",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "forward_inplace/u60_prime/16384",
+            "value": 181059,
+            "range": "± 3325",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "forward_inplace/goldilocks_prime/16384",
+            "value": 295831,
+            "range": "± 4938",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "forward_inplace/goldilocks_v2_prime/16384",
+            "value": 187949,
+            "range": "± 7941",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "forward_inplace/u64_prime/32768",
+            "value": 234353,
+            "range": "± 5445",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "forward_inplace/u60_prime/32768",
+            "value": 383823,
+            "range": "± 5893",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "forward_inplace/goldilocks_prime/32768",
+            "value": 635934,
+            "range": "± 9995",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "forward_inplace/goldilocks_v2_prime/32768",
+            "value": 396517,
+            "range": "± 7504",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "forward_inplace/u64_prime/65536",
+            "value": 492734,
+            "range": "± 11999",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "forward_inplace/u60_prime/65536",
+            "value": 818386,
+            "range": "± 15692",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "forward_inplace/goldilocks_prime/65536",
+            "value": 1365308,
+            "range": "± 29798",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "forward_inplace/goldilocks_v2_prime/65536",
+            "value": 855207,
+            "range": "± 15167",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "backward_inplace/u64_prime/2048",
+            "value": 10250,
+            "range": "± 202",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "backward_inplace/u60_prime/2048",
+            "value": 19605,
+            "range": "± 384",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "backward_inplace/goldilocks_prime/2048",
+            "value": 31528,
+            "range": "± 917",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "backward_inplace/goldilocks_v2_prime/2048",
+            "value": 21290,
+            "range": "± 458",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "backward_inplace/u64_prime/4096",
+            "value": 22325,
+            "range": "± 632",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "backward_inplace/u60_prime/4096",
+            "value": 41360,
+            "range": "± 2345",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "backward_inplace/goldilocks_prime/4096",
+            "value": 65687,
+            "range": "± 1667",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "backward_inplace/goldilocks_v2_prime/4096",
+            "value": 46276,
+            "range": "± 864",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "backward_inplace/u64_prime/8192",
+            "value": 47825,
+            "range": "± 935",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "backward_inplace/u60_prime/8192",
+            "value": 88605,
+            "range": "± 1654",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "backward_inplace/goldilocks_prime/8192",
+            "value": 140169,
+            "range": "± 2840",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "backward_inplace/goldilocks_v2_prime/8192",
+            "value": 99346,
+            "range": "± 1880",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "backward_inplace/u64_prime/16384",
+            "value": 100475,
+            "range": "± 2053",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "backward_inplace/u60_prime/16384",
+            "value": 188086,
+            "range": "± 9217",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "backward_inplace/goldilocks_prime/16384",
+            "value": 300251,
+            "range": "± 7691",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "backward_inplace/goldilocks_v2_prime/16384",
+            "value": 218942,
+            "range": "± 7625",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "backward_inplace/u64_prime/32768",
+            "value": 212521,
+            "range": "± 5054",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "backward_inplace/u60_prime/32768",
+            "value": 407179,
+            "range": "± 8859",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "backward_inplace/goldilocks_prime/32768",
+            "value": 635897,
+            "range": "± 28820",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "backward_inplace/goldilocks_v2_prime/32768",
+            "value": 463010,
+            "range": "± 9121",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "backward_inplace/u64_prime/65536",
+            "value": 456382,
+            "range": "± 12294",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "backward_inplace/u60_prime/65536",
+            "value": 855325,
+            "range": "± 31323",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "backward_inplace/goldilocks_prime/65536",
+            "value": 1343692,
+            "range": "± 43994",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "backward_inplace/goldilocks_v2_prime/65536",
+            "value": 968033,
+            "range": "± 23250",
             "unit": "ns/iter"
           }
         ]
